@@ -1,0 +1,39 @@
+/*heading*/
+.blue{
+    background-color: rgb(75, 75, 216);
+    height: 135px;
+    width: 97.5%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+
+
+}
+#head{
+    width: 80%;
+    height: auto;
+    float: left;
+}
+h1{
+    font-size: 60px;
+    margin-left: 50%;
+    margin-top: auto;
+}
+nav{
+    background-color: cornflowerblue;
+    width: 125%;
+    display: flex;
+    border-radius: 4px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 24px;
+    flex: 1;
+    text-align: center; 
+    color: black;  
+}
+a:hover{
+    color: rgb(204, 11, 162);
+}
