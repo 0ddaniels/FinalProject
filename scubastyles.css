@@ -1,3 +1,4 @@
+
 /*heading*/
 .blue{
     background-color: rgb(75, 75, 216);
@@ -29,7 +30,7 @@ nav{
 
 a{
     text-decoration: none;
-    font-size: 45px;
+    font-size: 80px;
     font-weight: bold;
     text-align: center; 
     color: black;
@@ -41,10 +42,9 @@ a:hover{
 }
 
 #buttion{
-    width: 24%;
+    width: 60%;
     background-color: mediumspringgreen;
-    margin-left: 50%;
-    margin-top: 6%;
+    margin-left: 10% 50%;
 
 }
 
@@ -74,15 +74,15 @@ a:hover{
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 0.75s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .6} 
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .6} 
   to {opacity: 1}
 }
