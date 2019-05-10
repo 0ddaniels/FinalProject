@@ -78,11 +78,18 @@ a{
 
 /*Page 2*/
 
+
+
 .tab {
   overflow: hidden;
   margin: 0px auto;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
+  display: flex;
+}
+.tablinks{
+  flex:1;
+
 }
 
 /* Style the buttons inside the tab */
@@ -94,7 +101,8 @@ a{
   cursor: -webkit-grab;
   padding: 14px 16px;
   transition: 0.3s;
-  font-size: 17px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .tab{
@@ -114,19 +122,24 @@ a{
 /* Style the tab content */
 .tabcontent {
   display: none;
-  padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+  text-align: center;
+  font-size: 18px;
 }
 
+.marg{
+  margin: 10px;
+}
 
 section{
-  background-color: aqua;
+  background-color: rgb(24, 145, 145);
   height: fit-content;
   width: 670px;
   margin: 20px auto;
   padding: 8px;
   text-align: center;
+  border-radius: 6px;
 }
 
 #choices{
