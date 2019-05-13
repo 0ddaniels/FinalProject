@@ -158,3 +158,24 @@ select{
 .when{
   margin-top: 15px;
 }
+
+/*payment page*/
+.container{
+  margin-top: 30px;
+  padding: 15px;
+  background-color: rgb(24, 145, 145);
+  border-radius: 6px;
+  
+}
+
+input{
+  margin: 5px;
+}
+
+#cvv{
+  width: 35px;
+}
+
+#done{
+  margin-left: 35px;
+}
