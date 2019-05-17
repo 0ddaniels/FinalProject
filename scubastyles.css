@@ -185,3 +185,8 @@ input{
   width: 325px;;
   margin: 0 auto;
 }
+.one{
+   font-size: 30px;
+   font-weight: bold;
+   color: rgb(21, 182, 21);
+}
